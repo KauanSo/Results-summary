@@ -7,33 +7,74 @@ body{
     font-family: 'Hanken Grotesk',sans-serif;
     min-width: 375px;
     max-width: 1440px;
+    min-height: 100vh;
     background-color: hsl(241, 100%, 89%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 h3{
     text-align: center;
+    color:hsl(221, 100%, 96%);
+    margin-top: 10px;
+    padding-top: 18px;
+
 }
 div h1{
+    padding-top: 30px;
     color:white;
     font-size:3.4em;
 
 }
-#circle{
-    background-image: linear-gradient(to top, hsla(256, 72%, 46%, 1) ,hsla(241, 72%, 46%, 0));
-    border-radius: 50%;
+h2{
+    color:white;
     text-align: center;
-    
-   width: 40%;
-   height: 30%;
+}
+p{
+    color:white;
+    text-align: center;
+    padding-inline: 35px;
+}
+#circle{
+background-image: linear-gradient(to top, hsla(241, 80%, 35%, 0.692), rgb(81, 30, 221) );
+border-radius: 70%;
+text-align: center;  
+   width: 60%;
+   height: 40%;
     margin: auto;
-  margin-top: 20px;
+  margin-top: 30px;
     
 }
-main > article{
-   
-    width: 300px;
-    background-image: linear-gradient(to top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+#score{
+    padding-left: 6px;
     height: 400px;
-    border-radius: 10px;
+    width: 300px;
+    background-image: linear-gradient(to bottom, hsl(252, 70%, 59%), hsla(241, 75%, 55%, 0.911));
+    
+    border-radius: 30px;
+
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+   
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    left: 52%;
+    top: 18%;
     
     
 }
+.h1{
+    padding-left: 10px;
+    color:black;
+    font-size: 1.3em;
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+
+
