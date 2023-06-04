@@ -36,6 +36,11 @@ p{
     text-align: center;
     padding-inline: 35px;
 }
+main{
+    align-items: center;
+    display: inline-block;
+    display: flex;
+}
 #circle{
 background-image: linear-gradient(to top, hsla(241, 80%, 35%, 0.692), rgb(81, 30, 221) );
 border-radius: 70%;
@@ -55,17 +60,15 @@ text-align: center;
     border-radius: 30px;
 
 }
+
 .summary{
-    display: flex;
-    flex-direction: column;
-   
+    
+   align-items: center;
     height: 400px;
     width: 300px;
     background-color: white;
     border-radius: 30px;
-    position: absolute;
-    left: 52%;
-    top: 18%;
+  
     
     
 }
@@ -76,5 +79,10 @@ text-align: center;
     margin-bottom: 8px;
     font-weight: bolder;
 }
-
+span{
+    margin-left: 100%;
+    justify-items: top;
+  display: inline-block;
+  
+}
 
